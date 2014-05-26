@@ -1,0 +1,5 @@
+name = Simple Bookmarklet
+description = A simple bookmarklet module.
+package = Simple Bookmarklet
+core = 7.x
+configure = admin/config/content/simple_bookmarklet
