@@ -383,7 +383,7 @@ function simple_bookmarklet_page_alter(&$page) {
     // Using drupal_goto() with destination set causes a recursive redirect loop
     // Need to decode URL to prevent double-encoding UTF-8 characters
     // @see https://drupal.org/node/1403616
-    $preopopulate = $_GET['simple_bookmarklet_prepopulate'];
+    $prepopulate = $_GET['simple_bookmarklet_prepopulate'];
     $opts = array('simple_bookmarklet' => 1,
                   'simple_bookmarklet_prepopulate' => $prepopulate);
     $origin = drupal_get_destination();
